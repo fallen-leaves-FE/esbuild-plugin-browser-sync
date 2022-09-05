@@ -5,6 +5,7 @@
   "main": "index.js",
   "module": "index.esm.js",
   "types": "types/index.d.ts",
+  "type": "module",
   "files": [
     "types",
     "index.js",
