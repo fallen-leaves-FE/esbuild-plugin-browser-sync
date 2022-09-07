@@ -2,7 +2,8 @@ node_modules
 .vscode
 .DS_Store
 .idea
-*.js
+index.js
+index.esm.js
 
 npm-debug.log*
 yarn-debug.log*

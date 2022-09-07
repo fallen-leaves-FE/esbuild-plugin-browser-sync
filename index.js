@@ -27,7 +27,7 @@ __export(src_exports, {
   default: () => src_default
 });
 module.exports = __toCommonJS(src_exports);
-var import_browser_sync = __toESM(require("browser-sync"));
+var import_browser_sync = __toESM(require("browser-sync"), 1);
 function esbuildPluginBowserSync(serveOptions = {}) {
   const bs = import_browser_sync.default.create("dev-server");
   return {

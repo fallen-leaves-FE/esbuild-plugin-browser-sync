@@ -1,6 +1,6 @@
 {
   "name": "esbuild-plugin-browser-sync",
-  "version": "1.0.0",
+  "version": "0.1.1",
   "description": "基于browser-sync的esbuild本地开发服务Plugin",
   "main": "index.js",
   "module": "index.esm.js",
@@ -30,16 +30,21 @@
     "server",
     "browser-sync"
   ],
-  "author": "fallen_leaves",
+  "author": {
+		"name": "fallen_leaves",
+		"url": "https://gitee.com/we_coder"
+	},
+  "repository": {
+		"type": "git",
+		"url": "https://gitee.com/we_coder/esbuild-plugin-browser-sync"
+	},
   "license": "ISC",
-  "peerDependencies": {
+  "dependencies": {
     "@types/browser-sync": "^2.26.3",
     "browser-sync": "^2.27.10"
   },
   "devDependencies": {
-    "@types/browser-sync": "^2.26.3",
     "@types/node": "^18.7.15",
-    "browser-sync": "^2.27.10",
     "esbuild": "^0.15.7",
     "typescript": "^4.8.2"
   }
